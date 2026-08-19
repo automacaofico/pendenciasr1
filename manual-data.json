@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "TITULO": "Painel de Pendências FICO Infra — Encerramento de Obra",
+    "SUBTITULO": "Ferrovia de Integração Centro-Oeste · EF-354 · KM 0–104+500 · Pacotes 01, 02 e 03",
+    "DATA_REFERENCIA": "19/08/2026",
+    "CADENCIA": "Atualização semanal",
+    "PREMISSA": "1 equipe com 12 colaboradores (1 encarregado + 4 oficiais + 8 serventes) executa em média 2 pendências/dia",
+    "MARCO_FINAL": "15/10/2026 — Hidro e TAC 05 (Pacote 01)"
+  },
+  "pacotes": [
+    {
+      "PACOTE": "P1",
+      "EMPRESA": "EMPA",
+      "KM": "KM 0 – 34+500",
+      "CRONOGRAMA": "Jul (4) + Ago (4) + Set (4) = 12 semanas",
+      "ENCARREGADOS": 1,
+      "OFICIAIS": 4,
+      "SERVENTES": 8,
+      "MOBILIZADO": 12,
+      "NECESSARIO": 36,
+      "STATUS_TXT": "Mobilização crítica",
+      "RNC": 15,
+      "START_SEMANA": 0,
+      "EXTRA_LABEL": "Marco final",
+      "EXTRA_VALUE": "15/10/2026"
+    },
+    { "PACOTE": "P1", "EMPRESA": "CIVIL MASTER" },
+    { "PACOTE": "P1", "EMPRESA": "GSA" },
+    { "PACOTE": "P1", "EMPRESA": "SOMAFEL" },
+    {
+      "PACOTE": "P2",
+      "EMPRESA": "ATERPA",
+      "KM": "KM 34+500 – 69+500",
+      "CRONOGRAMA": "Jul (2) + Ago (4) + Set (4) = 10 semanas",
+      "ENCARREGADOS": 1,
+      "OFICIAIS": 0,
+      "SERVENTES": 29,
+      "MOBILIZADO": 11,
+      "NECESSARIO": 60,
+      "STATUS_TXT": "Mobilização crítica",
+      "RNC": 20,
+      "START_SEMANA": 2,
+      "EXTRA_LABEL": "Mobilização a partir de",
+      "EXTRA_VALUE": "15/07/2026",
+      "MOB_NOTA": "Mobilização a partir de 15/07/2026. Vale está fazendo reinspeção em campo para baixar novas pendências."
+    },
+    { "PACOTE": "P2", "EMPRESA": "CIVIL MASTER" },
+    { "PACOTE": "P2", "EMPRESA": "DR" },
+    { "PACOTE": "P2", "EMPRESA": "GSA" },
+    {
+      "PACOTE": "P3",
+      "EMPRESA": "ÁPIA",
+      "KM": "KM 69+500 – 104+500",
+      "CRONOGRAMA": "Jul (4) + Ago (4) + Set (4) = 12 semanas",
+      "ENCARREGADOS": 2,
+      "OFICIAIS": 0,
+      "SERVENTES": 36,
+      "MOBILIZADO": 36,
+      "NECESSARIO": 48,
+      "STATUS_TXT": "Atenção",
+      "RNC": 30,
+      "START_SEMANA": 0,
+      "EXTRA_LABEL": "Equipes atuais",
+      "EXTRA_VALUE": "2 frentes"
+    },
+    { "PACOTE": "P3", "EMPRESA": "DR" },
+    { "PACOTE": "P3", "EMPRESA": "SOMAFEL" }
+  ],
+  "cenarios": [
+    { "PACOTE": "P1", "N_EQUIPES": 1, "PEND_SEMANA": 5.42857142857143, "PEND_DIA": 1.075, "COLABORADORES": 1.0857142857142859, "ATUAL": "SIM" },
+    { "PACOTE": "P1", "N_EQUIPES": 2, "PEND_SEMANA": 10.285714285714286, "PEND_DIA": 2.525, "COLABORADORES": 2.0571428571428574 },
+    { "PACOTE": "P1", "N_EQUIPES": 3, "PEND_SEMANA": 45.57142857142857, "PEND_DIA": 2.5, "COLABORADORES": 9.114285714285714, "NECESSARIO": "SIM" }
+  ],
+  "alertas": [
+    {
+      "PACOTE": "GERAL",
+      "TIPO": "CRITICO",
+      "TITULO": "Gap crítico de mobilização — Pacote 02",
+      "TEXTO": "ATERPA com 30 colaboradores mobilizados frente aos 60 necessários (5 equipes × 12). Ritmo atual não zera as 684 pendências no prazo."
+    },
+    {
+      "PACOTE": "GERAL",
+      "TIPO": "AVISO",
+      "TITULO": "Risco de refazimento — Pacote 01",
+      "TEXTO": "EMPA reporta ~40% de refazimento pós reinspeção. Combinado acompanhar e, se percentual se mantiver, incrementar equipes para preservar marco 15/10."
+    },
+    {
+      "PACOTE": "GERAL",
+      "TIPO": "INFO",
+      "TITULO": "Fonte de dados atualizada",
+      "TEXTO": "O painel passou a calcular as pendências direto da base bruta (EAP · aba Banco de Dados). A empresa DR não aparece nesta fonte — verificar se há registros dela em outra planilha."
+    },
+    {
+      "PACOTE": "P1",
+      "TIPO": "AVISO",
+      "TITULO": "Taxa de refazimento pós reinspeção ≈ 40%",
+      "TEXTO": "Alertada a EMPA. Combinado de acompanhar o avanço; caso o percentual se mantenha e coloque em risco o prazo final de setembro, será necessário incrementar as equipes."
+    },
+    {
+      "PACOTE": "P1",
+      "TIPO": "CRITICO",
+      "TITULO": "Gap crítico de mobilização — Pacote 01",
+      "TEXTO": "EMPA com 12 colaboradores mobilizados frente aos 36 necessários (3 equipes × 12)."
+    },
+    {
+      "PACOTE": "P1",
+      "TIPO": "INFO",
+      "TITULO": "Marcos contratuais · 15/10/2026",
+      "TEXTO": "Hidro e TAC 05 têm marco final até 15/10. Prioridade de execução no cronograma."
+    },
+    {
+      "PACOTE": "P2",
+      "TIPO": "CRITICO",
+      "TITULO": "Gap de mobilização de 50%",
+      "TEXTO": "30 colaboradores mobilizados × 60 necessários. Composição atual (1 enc + 29 serv) precisa evoluir para 5 equipes de 12 (1 enc + 4 of + 8 serv por equipe)."
+    },
+    {
+      "PACOTE": "P2",
+      "TIPO": "INFO",
+      "TITULO": "Reinspeção Vale em campo",
+      "TEXTO": "Vale está fazendo reinspeção em campo para baixar novas pendências — números podem sofrer ajuste."
+    },
+    {
+      "PACOTE": "P2",
+      "TIPO": "CRITICO",
+      "TITULO": "RNCs em campo · 20",
+      "TEXTO": "20 RNCs para tratativas em campo."
+    },
+    {
+      "PACOTE": "P3",
+      "TIPO": "AVISO",
+      "TITULO": "Gap de mobilização de 25%",
+      "TEXTO": "36 colaboradores mobilizados × 48 necessários. Faltam 12 colaboradores (equivalente a 1 equipe adicional) para atingir o dimensionamento ideal."
+    },
+    {
+      "PACOTE": "P3",
+      "TIPO": "CRITICO",
+      "TITULO": "RNCs em campo · 30",
+      "TEXTO": "Aproximadamente 30 RNCs para tratativas em campo — maior volume entre os três pacotes."
+    },
+    {
+      "PACOTE": "P3",
+      "TIPO": "INFO",
+      "TITULO": "Estrutura em 2 frentes",
+      "TEXTO": "Operação estruturada em 2 equipes (18 serventes + 1 encarregado cada) — ampliar para 4 frentes exige nova frente com 1 encarregado + 4 oficiais + 8 serventes."
+    }
+  ]
+}
