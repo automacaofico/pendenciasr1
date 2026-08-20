@@ -2,7 +2,7 @@
   "meta": {
     "TITULO": "Painel de Pendências FICO Infra — Encerramento de Obra",
     "SUBTITULO": "Ferrovia de Integração Centro-Oeste · EF-354 · KM 0–104+500 · Pacotes 01, 02 e 03",
-    "DATA_REFERENCIA": "19/08/2026",
+    "DATA_REFERENCIA": "20/08/2026",
     "CADENCIA": "Atualização semanal",
     "PREMISSA": "1 equipe com 12 colaboradores (1 encarregado + 4 oficiais + 8 serventes) executa em média 2 pendências/dia",
     "MARCO_FINAL": "15/10/2026 — Hidro e TAC 05 (Pacote 01)"
@@ -18,15 +18,13 @@
       "SERVENTES": 8,
       "MOBILIZADO": 12,
       "NECESSARIO": 36,
-      "STATUS_TXT": "Mobilização crítica",
       "RNC": 15,
+      "STATUS_TXT": "Mobilização crítica",
       "START_SEMANA": 0,
       "EXTRA_LABEL": "Marco final",
-      "EXTRA_VALUE": "15/10/2026"
+      "EXTRA_VALUE": "15/10/2026",
+      "MOB_NOTA": ""
     },
-    { "PACOTE": "P1", "EMPRESA": "CIVIL MASTER" },
-    { "PACOTE": "P1", "EMPRESA": "GSA" },
-    { "PACOTE": "P1", "EMPRESA": "SOMAFEL" },
     {
       "PACOTE": "P2",
       "EMPRESA": "ATERPA",
@@ -37,16 +35,13 @@
       "SERVENTES": 29,
       "MOBILIZADO": 11,
       "NECESSARIO": 60,
-      "STATUS_TXT": "Mobilização crítica",
       "RNC": 20,
+      "STATUS_TXT": "Mobilização crítica",
       "START_SEMANA": 2,
       "EXTRA_LABEL": "Mobilização a partir de",
       "EXTRA_VALUE": "15/07/2026",
       "MOB_NOTA": "Mobilização a partir de 15/07/2026. Vale está fazendo reinspeção em campo para baixar novas pendências."
     },
-    { "PACOTE": "P2", "EMPRESA": "CIVIL MASTER" },
-    { "PACOTE": "P2", "EMPRESA": "DR" },
-    { "PACOTE": "P2", "EMPRESA": "GSA" },
     {
       "PACOTE": "P3",
       "EMPRESA": "ÁPIA",
@@ -57,19 +52,41 @@
       "SERVENTES": 36,
       "MOBILIZADO": 36,
       "NECESSARIO": 48,
-      "STATUS_TXT": "Atenção",
       "RNC": 30,
+      "STATUS_TXT": "Atenção",
       "START_SEMANA": 0,
       "EXTRA_LABEL": "Equipes atuais",
-      "EXTRA_VALUE": "2 frentes"
-    },
-    { "PACOTE": "P3", "EMPRESA": "DR" },
-    { "PACOTE": "P3", "EMPRESA": "SOMAFEL" }
+      "EXTRA_VALUE": "2 frentes",
+      "MOB_NOTA": ""
+    }
   ],
   "cenarios": [
-    { "PACOTE": "P1", "N_EQUIPES": 1, "PEND_SEMANA": 5.42857142857143, "PEND_DIA": 1.075, "COLABORADORES": 1.0857142857142859, "ATUAL": "SIM" },
-    { "PACOTE": "P1", "N_EQUIPES": 2, "PEND_SEMANA": 10.285714285714286, "PEND_DIA": 2.525, "COLABORADORES": 2.0571428571428574 },
-    { "PACOTE": "P1", "N_EQUIPES": 3, "PEND_SEMANA": 45.57142857142857, "PEND_DIA": 2.5, "COLABORADORES": 9.114285714285714, "NECESSARIO": "SIM" }
+    {
+      "PACOTE": "P1",
+      "N_EQUIPES": 1,
+      "PEND_SEMANA": 5.42857142857143,
+      "PEND_DIA": 1.075,
+      "COLABORADORES": 1.0857142857142859,
+      "NOTA": "",
+      "ATUAL": "SIM"
+    },
+    {
+      "PACOTE": "P1",
+      "N_EQUIPES": 2,
+      "PEND_SEMANA": 10.285714285714286,
+      "PEND_DIA": 2.525,
+      "COLABORADORES": 2.0571428571428574,
+      "NOTA": ""
+    },
+    {
+      "PACOTE": "P1",
+      "N_EQUIPES": 3,
+      "PEND_SEMANA": 45.57142857142857,
+      "PEND_DIA": 2.5,
+      "COLABORADORES": 9.114285714285714,
+      "NOTA": "",
+      "NECESSARIO": "SIM"
+    }
   ],
   "alertas": [
     {
