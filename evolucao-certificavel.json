@@ -1,0 +1,81 @@
+{
+    "mes":  "2026-10",
+    "fonte":  "Pendências em aberto que impactam certificação (Certificação ?), Pacotes 1-3, por Empresa (CLP) e por Executante (em branco = Empresa); foto da base de cada sexta-feira.",
+    "pontos":  [
+                   {
+                       "rot":  "S1",
+                       "data":  "2026-10-02",
+                       "clp":  {
+                                   "ÁPIA":  195,
+                                   "VALE":  130,
+                                   "ATERPA":  100,
+                                   "GSA":  21,
+                                   "CIVIL MASTER":  15,
+                                   "EMPA":  51,
+                                   "ATERPA R":  6,
+                                   "SOMAFEL":  112
+                               },
+                       "exe":  {
+                                   "ÁPIA":  194,
+                                   "VALE":  8,
+                                   "ATERPA":  110,
+                                   "GSA":  41,
+                                   "CIVIL MASTER":  81,
+                                   "EMPA":  46,
+                                   "DR":  10,
+                                   "VERTICAL GREEN":  13,
+                                   "SOMAFEL":  127
+                               }
+                   },
+                   {
+                       "rot":  "S2",
+                       "data":  "2026-10-09",
+                       "clp":  {
+                                   "ÁPIA":  170,
+                                   "VALE":  136,
+                                   "ATERPA":  92,
+                                   "GSA":  20,
+                                   "CIVIL MASTER":  15,
+                                   "EMPA":  40,
+                                   "ATERPA R":  6,
+                                   "SOMAFEL":  112
+                               },
+                       "exe":  {
+                                   "ÁPIA":  170,
+                                   "VALE":  8,
+                                   "ATERPA":  102,
+                                   "GSA":  40,
+                                   "CIVIL MASTER":  81,
+                                   "EMPA":  40,
+                                   "DR":  10,
+                                   "VERTICAL GREEN":  13,
+                                   "SOMAFEL":  127
+                               }
+                   },
+                   {
+                       "rot":  "S3",
+                       "data":  "2026-10-16",
+                       "clp":  {
+                                   "ÁPIA":  168,
+                                   "VALE":  139,
+                                   "ATERPA":  88,
+                                   "GSA":  20,
+                                   "CIVIL MASTER":  15,
+                                   "EMPA":  20,
+                                   "ATERPA R":  6,
+                                   "SOMAFEL":  112
+                               },
+                       "exe":  {
+                                   "ÁPIA":  168,
+                                   "VALE":  8,
+                                   "ATERPA":  98,
+                                   "GSA":  41,
+                                   "CIVIL MASTER":  81,
+                                   "EMPA":  21,
+                                   "DR":  11,
+                                   "VERTICAL GREEN":  13,
+                                   "SOMAFEL":  127
+                               }
+                   }
+               ]
+}
