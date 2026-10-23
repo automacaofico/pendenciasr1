@@ -76,6 +76,31 @@
                                    "VERTICAL GREEN":  13,
                                    "SOMAFEL":  127
                                }
+                   },
+                   {
+                       "rot":  "S4",
+                       "data":  "2026-10-23",
+                       "clp":  {
+                                   "ÁPIA":  177,
+                                   "VALE":  135,
+                                   "ATERPA":  60,
+                                   "GSA":  18,
+                                   "CIVIL MASTER":  15,
+                                   "EMPA":  19,
+                                   "ATERPA R":  4,
+                                   "SOMAFEL":  73
+                               },
+                       "exe":  {
+                                   "ÁPIA":  179,
+                                   "VALE":  6,
+                                   "ATERPA":  70,
+                                   "GSA":  37,
+                                   "CIVIL MASTER":  79,
+                                   "EMPA":  20,
+                                   "DR":  10,
+                                   "VERTICAL GREEN":  12,
+                                   "SOMAFEL":  88
+                               }
                    }
                ]
 }
