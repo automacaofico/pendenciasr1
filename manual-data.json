@@ -21,8 +21,8 @@
       "RNC": 15,
       "STATUS_TXT": "Mobilização crítica",
       "START_SEMANA": 0,
-      "EXTRA_LABEL": "Marco final",
-      "EXTRA_VALUE": "15/10/2026",
+      "EXTRA_LABEL": "Prazo final",
+      "EXTRA_VALUE": "mar/27",
       "MOB_NOTA": ""
     },
     {
@@ -161,7 +161,7 @@
       "PACOTE": "GERAL",
       "TIPO": "CRITICO",
       "TITULO": "Gap crítico de mobilização — Pacote 02",
-      "TEXTO": "ATERPA com 30 colaboradores mobilizados frente aos 60 necessários (5 equipes × 12). Ritmo atual não zera as 684 pendências no prazo."
+      "TEXTO": "ATERPA com 30 colaboradores mobilizados frente aos 60 necessários (5 equipes × 12). Ritmo atual não zera as 247 pendências no prazo (jan/27)."
     },
     {
       "PACOTE": "GERAL",
@@ -179,7 +179,7 @@
       "PACOTE": "P1",
       "TIPO": "AVISO",
       "TITULO": "Taxa de refazimento pós reinspeção ≈ 40%",
-      "TEXTO": "Alertada a EMPA. Combinado de acompanhar o avanço; caso o percentual se mantenha e coloque em risco o prazo final de setembro, será necessário incrementar as equipes."
+      "TEXTO": "Alertada a EMPA. Combinado de acompanhar o avanço; caso o percentual se mantenha e coloque em risco o prazo final de mar/27, será necessário incrementar as equipes."
     },
     {
       "PACOTE": "P1",
