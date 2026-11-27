@@ -200,6 +200,31 @@
         "ÁPIA": 66,
         "SOMAFEL": 25
       }
+    },
+    {
+      "rot": "S9",
+      "data": "2026-11-27",
+      "clp": {
+        "GSA": 11,
+        "CIVIL MASTER": 8,
+        "EMPA": 6,
+        "VALE": 18,
+        "ATERPA R": 1,
+        "ATERPA": 15,
+        "ÁPIA": 65,
+        "SOMAFEL": 24
+      },
+      "exe": {
+        "GSA": 12,
+        "CIVIL MASTER": 27,
+        "EMPA": 6,
+        "ATERPA": 10,
+        "VALE": 1,
+        "DR": 1,
+        "VERTICAL GREEN": 2,
+        "ÁPIA": 65,
+        "SOMAFEL": 24
+      }
     }
   ]
 }
